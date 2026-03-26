@@ -110,10 +110,10 @@ If you prefer to run scripts individually or need more control, here are the ind
     *   **Example Command (Tasks 1 only)**:
         ```bash
         python process_data.py \
-        --market-data-dir market_data \
-        --event-details-dir event_details \
-        --market-output-dir market_details \
-        --skip-task2 --skip-task3
+            --market-data-dir market_data \
+            --event-details-dir event_details \
+            --market-output-dir market_details \
+            --skip-task2 --skip-task3
         ```
     *   **Example Command (Only Task 2 & 3 - TSV Creation)**:
         ```bash
